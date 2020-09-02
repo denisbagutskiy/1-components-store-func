@@ -1,0 +1,14 @@
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+
+    border: #6d2901 2px dashed;
+}
+
+.shop-item__cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
