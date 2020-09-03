@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import CurrencyFormat from 'react-currency-format';
 import './shop-item.css';
 
-export function ShopItem({item}) {
+export function ShopItem({ item }) {
 
-    const {brand, title, description, descriptionFull, price, currency} = item;
+    const { brand, title, description, descriptionFull, price, currency } = item;
 
     return (
         <div className="shop-item">
